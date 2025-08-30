@@ -27,7 +27,7 @@ Este projeto faz uso de conceitos fundamentais de desenvolvimento web, como:
 **1.** Baixe ou clone este repositório:
 
 ```
-git clone https://github.com/seu-usuario/sorteador-numeros.git
+git clone https://github.com/lucaesposito22/sorteador-numeros.git
 ```
 
 **2.** Abra a pasta do projeto no seu computador.
