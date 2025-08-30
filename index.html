@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorteador de Números</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="./assets/logo.png" alt="logo">
+    <span id="texto-logo">NUMBERS</span>
+  </header>
+
+  <div class="container">
+    
+    <div class="left">
+      <h1>SORTEADOR<br> DE NÚMEROS</h1>
+    </div>
+
+    <div class="right">
+      <h2>QUERO SORTEAR:</h2>
+      <p id="texto-sortear">
+        Defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!
+      </p>
+
+      <div class="blocos">
+        <div class="bloco-especifico">
+          <p>NÚMEROS</p>
+          <input type="text" name="quantidade" id="quantidade" placeholder="2">
+        </div>
+        <div class="bloco-especifico">
+          <p>DE</p>
+          <input type="text" name="minimo" id="minimo" placeholder="1">
+        </div>
+        <div class="bloco-especifico">
+          <p>A</p>
+          <input type="text" name="maximo" id="maximo" placeholder="100">
+        </div>
+      </div>
+
+      <p id="msg-erro"></p>
+
+      <label class="checkbox-wrapper">
+        <input type="checkbox" id="repetir">
+        <span class="toggle"></span>
+        <span class="checkbox-text">Não repetir número</span>
+      </label>  
+
+      <button id="button-sortear">SORTEAR</button>
+    </div>
+
+    <div class="infos">
+      <div class="info-bloco">
+        <img src="./assets/frame.png" alt="icone-info">
+        <div class="textos">
+          <h4>Como funciona o sorteador de números?</h4>
+          <p>
+            O sorteador utiliza um algoritmo de geração aleatória para criar<br>
+            números dentro do intervalo especificado pelo usuário.
+          </p>
+        </div>
+      </div>
+
+      <div class="info-bloco">
+        <img src="./assets/frame.png" alt="icone-info">
+        <div class="textos">
+          <h4>Posso escolher o intervalo dos números?</h4>
+          <p>
+            Sim, você pode definir os valores mínimo e máximo para o<br>
+            intervalo dos números sorteados.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
